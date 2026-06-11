@@ -16,6 +16,8 @@ public class BasicIfConditionUsingOperator {
 		
 		if(18>n) {
 			System.out.print("n is greater than 18");
+		}else {
+			System.out.print("n is less than 18");
 		}
 		
 	}

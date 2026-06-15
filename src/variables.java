@@ -2,7 +2,7 @@ import java.util.SortedSet;
 
 public class variables {
     static int a=10;  //static variable
-    int c=10;        //instance variable
+    int c= 10;        //instance variable
     void fun(){
         int b=10;      //local variable
         System.out.println("static:"+a+ " local:"+b+" instance:"+c);

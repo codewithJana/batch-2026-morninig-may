@@ -1,4 +1,4 @@
-package Non_Primitive_datatype;
+package non_Primitive_datatype;
 
 public class StringMethods {
     static void main(String[] args) {

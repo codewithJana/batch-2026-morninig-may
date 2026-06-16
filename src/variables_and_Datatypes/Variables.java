@@ -1,4 +1,4 @@
-package Variables_and_Datatypes;
+package variables_and_Datatypes;
 
 public class Variables {
 

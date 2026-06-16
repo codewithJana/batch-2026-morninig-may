@@ -1,4 +1,4 @@
-package Non_Primitive_datatype;
+package non_Primitive_datatype;
 
 /*
  primitives data types: byte, short, int, long, float, double, char, boolean

@@ -15,6 +15,16 @@ public class Whileloop {
             countdown--; // countdown = countdown-1;
         }
         System.out.println("program Ended!!");
+
+        int num = 1;
+        while(true){
+            System.out.println(num);
+            if(num == 70){
+                break;
+            }
+            num++;
+        }
+
     }
 
 }

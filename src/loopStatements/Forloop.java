@@ -21,6 +21,24 @@ public class Forloop {
             System.out.println(i);
         }
 
+        //print only odd numbers
+        for(int i = 1;i <= 10;i++){
+
+            if (i%2 == 0){
+                continue; //skip even numbers
+            }
+
+            System.out.println(i);
+        }
+
+        //print number until 5 is found
+        for(int i = 1;i <= 10;i++){
+            System.out.println(i);
+            if(i==5){
+                break; //terminate the flow
+            }
+        }
+
     }
 
 }

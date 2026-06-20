@@ -1,7 +1,6 @@
-package assigment1;
+package assignment1;
 
 public class Question1 {
-    public static class Question1 {
         static void main(String[] args) {
             for(int i=1; i<=10;i++)
             {

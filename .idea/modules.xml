@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Automation_Testing_Selenium.iml" filepath="$PROJECT_DIR$/Automation_Testing_Selenium.iml" />
+      <module fileurl="file://$PROJECT_DIR$/batch-2026-morninig-may/batch-2026-morninig-may.iml" filepath="$PROJECT_DIR$/batch-2026-morninig-may/batch-2026-morninig-may.iml" />
+    </modules>
+  </component>
+</project>

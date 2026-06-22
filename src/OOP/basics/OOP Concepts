@@ -1,0 +1,45 @@
+Constructor: used to initialize an object with required values
+
+Rules:
+1. Constuctor name must be same as class name
+2. No return type
+3. Execute Automatically
+4. Used once per object creation
+
+Constructor Types:
+1. Default Constructor: No constructor is written, Java automatically creates one.
+2. No-Args Constructor: Developer writes a Constructor with zero parameters.
+3. Parameterized Constructor: Developer writes a constructor with paramaters to initialize during object creation.
+
+
+this ---> keyword: used to refer to the current object of a class
+
+Before this:
+
+Object variable  Parameter
+brand         brand
+color        color
+
+After this:
+this.brand -->BMW brand
+this.color -->Black color
+
+
+Access Modifiers:
+   --> Java keyword that controls the visibility and accessibility of classes, variables, methods(user-defined method and constructors)
+   --> "who can access, what?"
+
+   Modifier        Same class  Same package   Subclass   OtherPackage
+      Private        Yes         No              No           No
+      Default        Yes         Yes             No           No
+      Protected      Yes         Yes             Yes          No
+      Public         Yes         Yes             Yes          Yes
+
+Encaptulation:
+   --> wrapping data and methods together into a single unit and protect the data form unauthorized access.
+   --> Data +secuity + controlled access
+   --> achieve by using access modifiers and getter/setter methods
+
+
+
+

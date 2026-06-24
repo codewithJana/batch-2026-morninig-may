@@ -1,4 +1,4 @@
-package java.basics;
+package nagamani.basics;
 
 public class nonprimitivefiles {
 }

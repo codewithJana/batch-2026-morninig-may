@@ -1,6 +1,6 @@
 package Assignment1_SowmyaPN;
 
-public class Question1_PrintNumbers_EvenOrOdd {
+public class Q1 {
 
     public static void main(String[] args) {
         System.out.println("Print Numbers 1 to 10 and identify the number as Even or odd");

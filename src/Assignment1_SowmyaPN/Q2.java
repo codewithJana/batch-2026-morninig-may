@@ -1,6 +1,6 @@
 package Assignment1_SowmyaPN;
 
-public class Question2_Sum1to20 {
+public class Q2 {
     public static void main(String[] args) {
         System.out.println("Program to do the Sum of the numbers from 1 to 20");
         // create the variable for the counter

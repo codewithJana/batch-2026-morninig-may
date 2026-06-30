@@ -40,6 +40,48 @@ Encaptulation:
    --> Data +secuity + controlled access
    --> achieve by using access modifiers and getter/setter methods
 
+Without static:
+    --> Every object stores its own copy
+With static :
+    --> Only one copy exists in memory
+
+Polymorphism:
+    --> Same method name can be perform different tasks depends on  situation.
+    Types:
+    1. Compile time (Static binding) --> achieved using METHOD OVERLOADING
+    2. Run time (Dynamic binding)
+
+    Rules of Method Overloading:
+    1. Different Number of paramater.
+    2. Different Data types
+    3. Different order of paramater.
+
+Inheritance:
+    --->  It is the process by which one class acquires the properties and methods of another class.
+    Key Terminologies:
+    1. Parent Class --> Existing class (eg: Car, Animal)
+    2. Child Class --> New class extending parent
+    3. Superclass --> Parent
+    4. subclass --> child
+    5. extends - Java keyword --> creates inheritance
+
+    "IS - A" relationship (eg: Corolla is a car, Dog is a Animal)
+Basic Syntex:
+    Class ParentClassName {
+
+    }
+    Class ChildClassName extends ParentClassName{
+
+    }
+
+    1. Single Inheritance
+    2. Multilevel Inheritance
+    3. Hierarcial
+    4. Multiple Inheritance
+
+ Super Keyword: reference variable that refers to the immediate parent class object
+
+
 
 
 

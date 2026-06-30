@@ -20,9 +20,9 @@ class CarDesign_1{
 
 public class Car_withEncaptulation {
     static void main(String[] args) {
-        CarDesign_1 car = new CarDesign_1();
-        car.brand = "BMW";
-        car.setSpeed(700);
-        System.out.println("Brand is "+car.brand+" and the speed is "+ car.getSpeed());
+        CarDesign_1 car1 = new CarDesign_1();
+        car1.brand = "BMW";
+        car1.setSpeed(700);
+        System.out.println("Brand is "+car1.brand+" and the speed is "+ car1.getSpeed());
     }
 }

@@ -1,4 +1,4 @@
-package OOP.basics.polymorphism;
+package OOP.basics.polymorphism.compiletime;
 
 public class WithoutPoly {
 

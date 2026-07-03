@@ -5,7 +5,7 @@ class Vehicle{
     String brand = "TATA";
         }
 //Mother
- class Car {
+  class Car {
 
     Car(){
         System.out.println("Parent constructor");
@@ -35,10 +35,7 @@ class Innova extends Car{
         System.out.println("Mu[sical system installed");
     }
 
-    public void start(){
-        super.start();
-        System.out.println("Car started with Button push");
-    }
+
 
     public void display(){
         System.out.println("child Brand "+this.brand);

@@ -50,11 +50,15 @@ Polymorphism:
     Types:
     1. Compile time (Static binding) --> achieved using METHOD OVERLOADING
     2. Run time (Dynamic binding)
-
+Compile time :
     Rules of Method Overloading:
     1. Different Number of paramater.
     2. Different Data types
     3. Different order of paramater.
+Run time:
+     --> one reference variable, many possible object behaviour
+
+
 
 Inheritance:
     --->  It is the process by which one class acquires the properties and methods of another class.
@@ -81,7 +85,20 @@ Basic Syntex:
 
  Super Keyword: reference variable that refers to the immediate parent class object
 
+Abstraction:
+--> Hide internal implemenations details and show only the necessary functionalities to the user
+  "What to do" -->exposed
+  "how it is done" --> hidden
 
+Abstract Class:
+  --> "Abstract" keyword
+  --> cannot be instantiated
+  --> It may contain abstract methods.[only Declaration]
+  --> It may contain concrete methods
+  --> act as blue print for the child classses
 
-
+Abstract Method:
+  --> has only Declaration
+  --> does NOT have IMPLEMENTATION.
+  --> MUST be implemented by child class
 

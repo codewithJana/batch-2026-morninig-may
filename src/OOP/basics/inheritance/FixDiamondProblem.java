@@ -1,9 +1,10 @@
 package OOP.basics.inheritance;
 
+//Parent
 interface PetrolCar_1{
     void start();
 }
-
+//Parent
 interface ElectricCar_1{
     void start();
 }

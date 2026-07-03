@@ -1,11 +1,11 @@
 package OOP.basics.inheritance.withInheritance;
 
 //Father
-class Vehicle{
+ class Vehicle{
     String brand = "TATA";
         }
 //Mother
-  class Car {
+ class Car {
 
     Car(){
         System.out.println("Parent constructor");

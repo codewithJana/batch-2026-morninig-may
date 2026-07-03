@@ -102,3 +102,8 @@ Abstract Method:
   --> does NOT have IMPLEMENTATION.
   --> MUST be implemented by child class
 
+Interface:
+    --> it is a blueprint of class that contains methods without implementation.
+    --> "What should she done" not " How it should be done"
+    --> likes "CONTRACT"
+

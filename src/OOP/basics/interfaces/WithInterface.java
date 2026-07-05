@@ -9,6 +9,11 @@ interface Car {
     void stop();
     void acceleration();
 
+    default void ABS_brakingsystem(){
+
+    };
+
+
 }
 
 

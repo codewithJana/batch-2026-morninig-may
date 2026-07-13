@@ -12,7 +12,7 @@ public class variables {
     }
 
     static void main() {
-        variables r= new variables();
+        variables r= new variables(); // created object of the class
         r.fun();
         r.fun();
         variables m=new variables();

@@ -1,0 +1,109 @@
+Constructor: used to initialize an object with required values
+
+Rules:
+1. Constuctor name must be same as class name
+2. No return type
+3. Execute Automatically
+4. Used once per object creation
+
+Constructor Types:
+1. Default Constructor: No constructor is written, Java automatically creates one.
+2. No-Args Constructor: Developer writes a Constructor with zero parameters.
+3. Parameterized Constructor: Developer writes a constructor with paramaters to initialize during object creation.
+
+
+this ---> keyword: used to refer to the current object of a class
+
+Before this:
+
+Object variable  Parameter
+brand         brand
+color        color
+
+After this:
+this.brand -->BMW brand
+this.color -->Black color
+
+
+Access Modifiers:
+   --> Java keyword that controls the visibility and accessibility of classes, variables, methods(user-defined method and constructors)
+   --> "who can access, what?"
+
+   Modifier        Same class  Same package   Subclass   OtherPackage
+      Private        Yes         No              No           No
+      Default        Yes         Yes             No           No
+      Protected      Yes         Yes             Yes          No
+      Public         Yes         Yes             Yes          Yes
+
+Encaptulation:
+   --> wrapping data and methods together into a single unit and protect the data form unauthorized access.
+   --> Data +secuity + controlled access
+   --> achieve by using access modifiers and getter/setter methods
+
+Without static:
+    --> Every object stores its own copy
+With static :
+    --> Only one copy exists in memory
+
+Polymorphism:
+    --> Same method name can be perform different tasks depends on  situation.
+    Types:
+    1. Compile time (Static binding) --> achieved using METHOD OVERLOADING
+    2. Run time (Dynamic binding)
+Compile time :
+    Rules of Method Overloading:
+    1. Different Number of paramater.
+    2. Different Data types
+    3. Different order of paramater.
+Run time:
+     --> one reference variable, many possible object behaviour
+
+
+
+Inheritance:
+    --->  It is the process by which one class acquires the properties and methods of another class.
+    Key Terminologies:
+    1. Parent Class --> Existing class (eg: Car, Animal)
+    2. Child Class --> New class extending parent
+    3. Superclass --> Parent
+    4. subclass --> child
+    5. extends - Java keyword --> creates inheritance
+
+    "IS - A" relationship (eg: Corolla is a car, Dog is a Animal)
+Basic Syntex:
+    Class ParentClassName {
+
+    }
+    Class ChildClassName extends ParentClassName{
+
+    }
+
+    1. Single Inheritance
+    2. Multilevel Inheritance
+    3. Hierarcial
+    4. Multiple Inheritance
+
+ Super Keyword: reference variable that refers to the immediate parent class object
+
+Abstraction:
+--> Hide internal implemenations details and show only the necessary functionalities to the user
+  "What to do" -->exposed
+  "how it is done" --> hidden
+
+Abstract Class:
+  --> "Abstract" keyword
+  --> cannot be instantiated
+  --> It may contain abstract methods.[only Declaration]
+  --> It may contain concrete methods
+  --> act as blue print for the child classses
+
+Abstract Method:
+  --> has only Declaration
+  --> does NOT have IMPLEMENTATION.
+  --> MUST be implemented by child class
+
+Interface:
+    --> it is a blueprint of class that contains methods without implementation.
+    --> "What should she done" not " How it should be done"
+    --> likes "CONTRACT"
+

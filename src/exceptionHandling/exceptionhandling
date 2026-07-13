@@ -1,0 +1,10 @@
+Exception:
+ if any unexpected event occurs, how Java handle the event and make the system smooth ti continue the normal flow
+
+Object --->Throwable|---> Exception (these are recoverable) ---->Checked Exception
+                    |               |
+                    |               |--->Unchecked Exception
+                    |
+                    |
+                    |
+                    |----> Error eg. OutofMemoryError, StackOverFlowError (Developers dont handle errors)

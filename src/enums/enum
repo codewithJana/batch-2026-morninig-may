@@ -1,0 +1,4 @@
+Enumerations:
+---> special java datatype use to represent a fixed set of constants.
+---> Instead of allowing any values, Enum allows only pre-defined values
+

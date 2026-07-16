@@ -1,2 +1,59 @@
 Collection --> represent the group of element/object /data into single entity.
 Collection framework --> group of Interfaces, classes and algorithms
+
+  Requirement                   |           Best collection usage
+1.  Fast search by Index                        ArrayList
+2.  Frequent Insert/Delete                      LinkedList
+3.  Unique elements                                 Set
+4.  Key-value storage                               Map
+5.  FIFO processing                                Queue
+
+
+LinkedList:
+    ---> Each element is node
+    ---> Each node contains 1. Data
+                            2. Address of previous element
+                            3. Address of Next element
+
+Queue:
+    ---> used to store elements in FIFO(first in first out) order. eg: task scheduler, buffering etc..
+Methods in Queue:
+    Insert      add()/offer()
+    Delete      remove()/poll()
+    Examine     element()/peek()
+
+DeQueue:
+    ---> also known as 'Deck'(pronounciation) , Double-ended Queue
+    --> linear data structure , allows insertion and deletion of elements from both ends(head and tail)
+    --> genralization of both FIFO(Queue) and LIFO(stack)
+
+Feature     |       Queue       |       Deque       |       Stack
+Insertion         Tail only           Both ends          Top only
+Removal           Head only           Both ends          Top only
+Access            Head only           Both ends          Top only
+Principle          FIFO             Both FIFO & LIFO        LIFO
+
+Characteristics:
+1. Bidirectional
+2. No capacity restriction(except arrayblockingQueue)
+3. No-Index based approach (like Queue,no get(index) method)
+4. Null elements are not allowed(exception is linkedlist, preference is not to use)
+5. O(1) -- All insertion and deletion at both ends are constant time
+
+DeQue(Interface) ---> Implementation ---> LinkedList (class) , pointer(next,previous), more memory
+                          |
+                          ---> ArrayDeque (class) --> Resizeable array implementation, no pointers, less memory
+Methods in Deque:
+    Insert      addFirst(),addLast()/offerFirst(),offerLast()
+    Delete      removeFirst(),removeLast()/pollFirst(),pollLast()
+    Examine     getFirst(),getLast()/peekFirst(),peekLast()
+
+    Stack       Push/Pop
+
+
+
+age = [20,30,23,26]
+name = ["Jana","prem","peter","bob"]
+city = ["bangalore","chennai"...]
+
+personDetails = ["age:20","name:prem","city:chennai"...]

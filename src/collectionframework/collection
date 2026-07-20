@@ -57,3 +57,41 @@ name = ["Jana","prem","peter","bob"]
 city = ["bangalore","chennai"...]
 
 personDetails = ["age:20","name:prem","city:chennai"...]
+
+PriorityQueue:
+    -->process bases on the priority instead of insertion order
+
+Queue                           PriorityQueue
+FIFO                               Priority Based
+Insertion Order                    priority Based
+use Linkedlist/ArrList             use Binary Heap(tree based data structure-MinHeap,MaxHeap)
+First Inserted Removed             Highest/lowest priority removed
+
+
+Set:
+    --> collection that cannot contains duplicate elements[MUST contains unique elements]
+    -->eg: passport number, Aadhar, PAN, Vehicle ID...
+    --> models the mathematical set abstraction
+Characteristics:
+1. No Duplicates
+2. No Index access
+3. Unordered
+4. Allow NULL value
+5. Hashcode() and equal()/comparable()
+
+Hashset:
+    --> Most common implemenation of set interface
+    --> It is backed by HashMap internally
+
+Internal Working:
+    --> HashMap created Key:Value pair combination and a dummy object value "PRESENT"(final variable)
+    --> Key is the object added via Hashset eg: Apple, Banana etcc
+    --> Uses Hashcode() and equal() to determine uniqueness
+    --> Elements are stored in hash buckets--insertion order depends on hash code, not Inserstion order
+when to use hashset:
+1. fast lookup ,insert, delete object
+2. union/intersection related mathematical model
+
+Two terms on object creation(parameter)
+1. Capacity :- default Capacity of HashSet : 16
+2. Load factor :- when to create new hashset space : default :0.75 ~ 75%

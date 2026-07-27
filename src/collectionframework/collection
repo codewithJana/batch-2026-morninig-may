@@ -95,3 +95,62 @@ when to use hashset:
 Two terms on object creation(parameter)
 1. Capacity :- default Capacity of HashSet : 16
 2. Load factor :- when to create new hashset space : default :0.75 ~ 75%
+
+Map:
+    --> an interface, that stores data in Key-Value pair, where each unique key maps to the exactly one value
+    -->Entry:  Each row in map consists of Key-Value pair
+    -->underlying DS is "HASHTABLE"
+    -->Insertion order is not preserved
+    -->Keys should be unique.
+    -->Values can be duplicate
+    -->Null Key allowed once
+    -->Value allows multiple null
+    --> Best usecase : fast Searching
+HashTable:              HashMap
+    -->JDK 1.0             JDK 1.2
+    -->Synchronized        Asynchronized
+    -->slow                Fast
+    -->Safety: High        Safety: considerable
+    -->Dont Allow NULL     Allow Null
+    -->Def:capacity: 11    Def:capacity: 16
+    -->LoadFactor: .75     LoadFactor: .75
+
+Map ----> HashMap
+    |---> LinkedHashMap
+    |---> TreeMap
+
+HashMap:
+    --> Store Key-Value pair
+    --> capacity is 16
+    --> Key much be unique, value can be duplicated
+    --> Key Allows one NULL, value can have multiple NULL
+    --> Unordered
+    --> Asynchronized
+    --> very fast searching
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

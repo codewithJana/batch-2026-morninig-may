@@ -8,3 +8,25 @@ Object --->Throwable|---> Exception (these are recoverable) ---->Checked Excepti
                     |
                     |
                     |----> Error eg. OutofMemoryError, StackOverFlowError (Developers dont handle errors)
+
+Exceptions:
+    --> Checked Exception
+            --> checked at the compile time
+    --> Unchecked Exception
+            --> checked at the run time
+
+finally:
+    -->Always execute , irespective of error or happy flow
+
+Throw:
+    -->Keyword,explicitly create and throw an exception
+    --> Syntax : throw new ExceptionType("Message")
+    Imp Points:
+        --> Used inside a method
+        -->Throw only one exception at a time
+        --> Followed by a exception object
+        --> can throw both checked and unchecked exceptions
+
+Throws:
+    --> used in method declaration
+    --> Syntax: accessspecifier returnType methodName() throws ExceptionType

@@ -12,7 +12,8 @@ public class PreserveFirstSeenOrder {
 		
 		Map<String, Integer> map=new LinkedHashMap<>();
 		
-		for(int i=0;i<values.length-1;i++) {
+		for(int i=0;i<values.length;i++) 
+		{
 			map.put(values[i],map.getOrDefault(values[i],0)+1);
 		}
 		
